@@ -3,12 +3,12 @@ main{
     margin: auto;
 }
 body{
-    width: 100%; 
+    width: 85%; 
     background-color:wheat;
     font-family: Roboto, sans-serif;
 }
 #homelogo{
-  padding: 0 2% 0;
+  padding: 0% 3% 0%;
 }
 #banner{
     width: 100%;
