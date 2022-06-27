@@ -45,20 +45,22 @@ body{
 }
 #menu{
     margin: 3px;
-    background-color: #23848b;
+    background-color: #2fbbe6;
 }
 .menubutton{
     color:#ffe550;
-    border-radius: 8px;
-    border: 1.5px solid;
-    padding: 0.6em 1.3em;
+    border-radius: 5px;
+    border: 1px #2fbbe6 solid;
+    padding: 0.2em 2em;
     font-size: 1em;
+    font-weight: bold;
 }
 
 #menu:hover{
     border-color: #ffe550;
-    color: black;
-    background: rgb(178, 204, 29);
+    color: rgb(252, 3, 3);
+    font-weight: lighter;
+    background: #ffe550;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
     cursor: pointer;
