@@ -61,6 +61,7 @@ body{
     color: rgb(252, 3, 3);
     font-weight: lighter;
     background: #ffe550;
+    padding: 0.2em 2.2em;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
     cursor: pointer;
