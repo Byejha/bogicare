@@ -45,10 +45,10 @@ body{
 }
 #menu{
     margin: 3px;
-    background-color: #2fbbe6;
+    background-color: rgb(255, 210, 63);
 }
 .menubutton{
-    color:#ffe550;
+    color:#0c0909;
     border-radius: 5px;
     border: 1px #2fbbe6 solid;
     padding: 0.2em 2em;
