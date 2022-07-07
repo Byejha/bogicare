@@ -1,0 +1,24 @@
+#menu{
+    margin: 3px;
+    background-color: rgb(255, 210, 63);
+}
+.menubutton{
+    color:#0c0909;
+    border-radius: 5px;
+    border: 1px #2fbbe6 solid;
+    padding: 0.2em 2em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#menu:hover{
+    border-color: #ffe550;
+    color: rgb(252, 3, 3);
+    font-weight: lighter;
+    background: #ffe550;
+    padding: 0.2em 2.2em;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: all 0.2s;
+}
