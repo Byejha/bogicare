@@ -11,39 +11,40 @@ body{
 #homelogo{
   padding: 0% 3% 0%;
 }
-#banner{
+#promo{
     width: 100%;
     /* padding: none;
     margin: none; */
 }
 
-.para{
-    background-color: rgb(245, 197, 109);
-    width: auto;
-    height: auto;
-    border: 50px 20px 50px 20px;
-    padding: 50px 20px 50px 20px;
-    border-radius: 1em;
-}
-#container{
-    background-color: #26bcc7;
+#banner{
+    /* background-color: #26bcc7; */
+    background-image: url('image/3840x730.png');
+    background-color: #cccccc;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 1220px, cover;
+
     width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: start;
 }
+
 .bodyimg div img{
     border-radius: 2em;
 }
+
 #logo{
     border-radius: 30%;
     margin: 0 3px;
 }
-#menu{
+
+/* #menu{
     margin: 3px;
     background-color: rgb(255, 210, 63);
 }
@@ -66,6 +67,15 @@ body{
     transform: translateY(-0.25em);
     cursor: pointer;
     transition: all 0.2s;
+} */
+
+.para{
+  background-color: rgb(245, 197, 109);
+  width: auto;
+  height: auto;
+  border: 50px 20px 50px 20px;
+  padding: 50px 20px 50px 20px;
+  border-radius: 1em;
 }
 
 .footer{
@@ -77,22 +87,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+
 #logofooter, #wordfooter{
     margin-left: 5%;
 }
 
-/* .circle{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    border-radius: 50%;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.circle:hover{
-    background-color: brown;
-    
-} */
 
   ul {
       padding: 0;
@@ -106,10 +105,11 @@ body{
   }
   #nav {
     width: 60em; 
-    position: absolute;
-    top: 0%;
-    left: 20%;
-    /* margin-left: 0em; */
+     /* position: absolute;
+    top: 5%;
+    left: 30em;  */
+    width: 100%;
+    position: static;
   }
   #nav > a {
     display: none;
@@ -139,7 +139,7 @@ body{
 
   /* first level */
   #nav > ul {
-  height: 3.75em; 
+  height: 4em; 
   background-color: #e15a1f;
   }
   #nav > ul > li {
@@ -149,8 +149,8 @@ body{
   }
   #nav > ul > li > a {
   height: 100%;
-  font-size: 1.25em;
-  line-height: 2.5em;
+  font-size: 1em;
+  line-height: 1.75em;
   text-align: center;
   }
   #nav > ul > li:not( :last-child ) > a {
@@ -159,14 +159,6 @@ body{
   #nav > ul > li:hover > a,
   #nav > ul:not( :hover ) > li.active > a {
   background-color: #cc470d;
-
-  border-color: #ffe550;
-  color: rgb(24, 136, 57);
-  background: rgb(224, 255, 47);
-  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-  transform: translateY(-0.25em);
-  cursor: pointer;
-  transition: all 0.2s;
 
   }
 
