@@ -9,8 +9,9 @@ body{
     /* margin: 0 10% 0 10%; */
 }
 .body{
-    background-image: url('image/test/bgTest.png');
-    background-size: cover;
+    background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -background.jpg');
+    background-size: 50%;
+    text-align: center;
 }
 
 #homelogo{
@@ -20,6 +21,18 @@ body{
     width: 100%;
     /* padding: none;
     margin: none; */
+}
+
+.ourProduct{
+    display: flex;
+    /* flex-basis: auto; */
+    justify-content: space-evenly;
+     /* flex-direction: row; */
+    /* align-items: center;  */
+    text-align: center;
+}
+#ourProduct{
+    border-radius: 20%;
 }
 
 #banner{
@@ -74,14 +87,6 @@ body{
     transition: all 0.2s;
 } */
 
-.para{
-  background-color: rgb(245, 197, 109);
-  width: auto;
-  height: auto;
-  border: 50px 20px 50px 20px;
-  padding: 50px 20px 50px 20px;
-  border-radius: 1em;
-}
 #carouselPic{
   margin-left: 30%;
 }
