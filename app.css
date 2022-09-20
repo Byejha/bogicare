@@ -39,8 +39,8 @@ body{
 
 .howcanweserve{
   margin: auto;
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+  /* align-items: center; */
 }
 .howcanweserveimage{
   width: 50%;
@@ -49,9 +49,10 @@ body{
 }
 .howcanweserveword{
   
-  
 }
-h2{
+
+.howcan{
+  font-size: 1.7em;
   text-align: start;
   margin-right: 35%;
   margin-left: -190%;
@@ -64,6 +65,43 @@ h2{
   margin-left: -190%;
   color: rgb(97, 93, 93);
   font-size: 1.1em;
+}
+
+@media only screen and ( max-width: 82em ) {
+  .howcan{
+    margin-right: 35%;
+    margin-left: -190%;
+    font-size: 1.3em;
+  }
+  .p2{
+    margin-right: 35%;
+    margin-left: -190%;
+    font-size: 1.1em;
+  }
+}
+@media only screen and ( max-width: 45em ) {
+  .howcan{
+    margin-right: 30%;
+    margin-left: -190%;
+    font-size: 1.0em;
+  }
+  .p2{
+    margin-right: 30%;
+    margin-left: -190%;
+    font-size: 0.85em;
+  }
+}
+@media only screen and ( max-width: 30em ) {
+  .howcan{
+    margin-right: 20%;
+    margin-left: -150%;
+    font-size: 1.0em;
+  }
+  .p2{
+    margin-right: 20%;
+    margin-left: -150%;
+    font-size: 0.85em;
+  }
 }
 
 .bogiword{
