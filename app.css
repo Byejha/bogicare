@@ -40,23 +40,43 @@ body{
 .howcanweserve{
   margin: auto;
   display: inline-flex;
-  /* align-items: center; */
+}
+.whybogi{
+  margin: 5% 0 5% 0;
+  display: inline-flex;
 }
 .howcanweserveimage{
   width: 50%;
-  margin-left: -20%;
-  padding-left: -20%;
+  margin-left: -25%;
 }
 .howcanweserveword{
   
 }
+.whybogiimage{
+  width: 50%;
+  margin: 0 -5% 5% 20%;
+}
+.why{
+  font-size: 1.65em;
+  text-align: start;
+  margin: 17% -110% 0 40%;
+  color: rgb(97, 93, 93);
+  font-weight: bolder;
+}
 
+.p1{
+  text-align: start;
+  margin: 5% -110% 0 40%;
+  color: rgb(97, 93, 93);
+  font-size: 1.3em;
+}
 .howcan{
-  font-size: 1.7em;
+  font-size: 1.4em;
   text-align: start;
   margin-right: 35%;
   margin-left: -190%;
   color: rgb(97, 93, 93);
+  font-weight: bolder;
 }
 
 .p2{
@@ -71,45 +91,114 @@ body{
   .howcan{
     margin-right: 35%;
     margin-left: -190%;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-weight: bolder;
   }
   .p2{
     margin-right: 35%;
     margin-left: -190%;
     font-size: 1.1em;
   }
+  .why{
+    
+    font-size: 1.2em;
+  }
+  .p1{
+    font-size: 1.2em;
+    margin-bottom: 15%;
+  }
 }
 @media only screen and ( max-width: 45em ) {
   .howcan{
-    margin-right: 30%;
-    margin-left: -190%;
-    font-size: 1.0em;
+    padding-top: 5%;
+    margin-right: 10%;
+    margin-left: 15%;
+    font-size: 0.9em;
+    font-weight: bolder;
   }
   .p2{
-    margin-right: 30%;
-    margin-left: -190%;
-    font-size: 0.85em;
+    margin-right: 10%;
+    margin-left: 15%;
+    font-size: 0.9em;
   }
+  .why{
+    margin-top: 270%;
+    margin-right: -400%;
+    margin-left: 80%;
+    font-size: 0.9em;
+    font-weight: bolder;
+  }
+  .p1{
+    margin-top: 0%;
+    margin-right: -400%;
+    margin-left: 80%;
+    margin-bottom: 30%;
+    font-size: 0.9em;
+  }
+  .whybogiimage{
+    width: 70%;
+    margin: 0 10% 0 0;
+  }
+  .howcanweserveimage{
+    width: 60%;
+    margin: auto;
+  }
+  .howcanweserve{
+    margin: auto;
+    display: block;
+  }
+  
 }
 @media only screen and ( max-width: 30em ) {
   .howcan{
-    margin-right: 20%;
-    margin-left: -150%;
-    font-size: 1.0em;
+    padding-top: 10%;
+    margin-right: 10%;
+    margin-left: 15%;
+    font-size: 0.85em;
+    font-weight: bolder;
   }
   .p2{
-    margin-right: 20%;
-    margin-left: -150%;
+    margin-right: 10%;
+    margin-left: 15%;
     font-size: 0.85em;
+  }
+  .why{
+    margin-top: 300%;
+    margin-right: -430%;
+    margin-left: 90%;
+    font-size: 0.85em;
+  }
+  .p1{
+    margin-top: 0%;
+    margin-right: -430%;
+    margin-left: 90%;
+    margin-bottom: 70%;
+    font-size: 0.85em;
+  }
+  .whybogiimage{
+    width: 70%;
+    margin: 0 10% 0 0;
+  }
+  .howcanweserveimage{
+    width: 70%;
+    margin: auto;
+  }
+  .howcanweserve{
+    margin: auto;
+    display: block;
+  }
+  .whybogi{
+    margin: auto;
+    display: block start;
   }
 }
 
 .bogiword{
-  color: #17c4e2;
+  color: #19adc7;
 }
 
 .careword{
-  color: #e29117;
+  color: #dd9529;
 }
 
 .ourProduct{
