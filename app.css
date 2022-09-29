@@ -275,13 +275,220 @@ body{
     flex-wrap: wrap;
 }
 
-#logo{
-  border-radius: 30%;
-  margin: 0 3px;
+.footerlink{
+
+}
+.footercontainer{
+  position: relative;
 }
 
-#logofooter, #wordfooter{
-    margin-left: 50%;
+.footerlink{
+  position: absolute ;
+  top: 54%;
+  left: 15%;
+  bottom: 10%;
+  width: 57%;
+  height: 45%;
+  font-size: 1.25em;
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+.hh1{
+  width : 50%;
+  height: 5%;
+}
+.hh2{
+  width : 80%;
+  height: 5%;
+}
+.hh3{
+  width : 80%;
+  height: 5%;
+  font-size: 0.7em;
+}
+
+.contactus {
+  position: absolute ;
+  top: 54%;
+  left: 75%;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.mail {
+  position: absolute ;
+  top: 63%;
+  left: 75%;
+  width: 45px;
+}
+.mailword {
+  position: absolute ;
+  top: 67%;
+  left: 79%;
+  font-size: 0.9em;
+}
+.fb {
+  position: absolute ;
+  top: 75%;
+  left: 75%;
+  width: 45px;
+}
+.fbword {
+  position: absolute ;
+  top: 79%;
+  left: 79%;
+  font-size: 0.9em;
+}
+@media only screen and ( max-width: 80em ) {
+  .footerlink{
+    font-size: 1em;
+    line-height: 1.9em;
+    letter-spacing: 1.5px;
+  }
+  .hh3{
+    font-size: 0.7em;
+  }
+
+  .contactus {
+  top: 54%;
+  left: 75%;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  }
+  .mail {
+  top: 63%;
+  left: 75%;
+  width: 30px;
+  }
+  .mailword {
+  top: 65.5%;
+  left: 78%;
+  font-size: 0.8em;
+  }
+  .fb {
+  top: 75%;
+  left: 75%;
+  width: 30px;
+  }
+  .fbword {
+  top: 78%;
+  left: 78%;
+  font-size: 0.8em;
+  }
+}
+@media only screen and ( max-width: 60em ) {
+  .footerlink{
+    font-size: 0.75em;
+    line-height: 1.8em;
+    letter-spacing: 1.5px;
+  }
+
+  .contactus {
+  top: 54%;
+  left: 75%;
+  font-size: 0.7em;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  }
+  .mail {
+  top: 63%;
+  left: 75%;
+  width: 25px;
+  }
+  .mailword {
+  top: 66%;
+  left: 79%;
+  font-size: 0.7em;
+  }
+  .fb {
+  top: 75%;
+  left: 75%;
+  width: 25px;
+  }
+  .fbword {
+  top: 79%;
+  left: 79%;
+  font-size: 0.7em;
+  }
+}
+
+@media only screen and ( max-width: 45em ) {
+  .footerlink{
+    font-size: 0.6em;
+    line-height: 1.65em;
+    letter-spacing: 1.5px;
+  }
+  .hh1{
+    width : 40%;
+  }
+
+  .contactus {
+  top: 54%;
+  left: 75%;
+  font-size: 0.6em;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  }
+  .mail {
+  top: 63%;
+  left: 75%;
+  width: 20px;
+  }
+  .mailword {
+  top: 66%;
+  left: 79%;
+  font-size: 0.6em;
+  }
+  .fb {
+  top: 75%;
+  left: 75%;
+  width: 20px;
+  }
+  .fbword {
+  top: 78%;
+  left: 79%;
+  font-size: 0.6em;
+  }
+}
+
+@media only screen and ( max-width: 30em ) {
+  .footerlink{
+    font-size: 0.45em;
+    line-height: 1.65em;
+    letter-spacing: 1px;
+  }
+  .hh1{
+    width : 40%;
+  }
+
+  .contactus {
+  top: 54%;
+  left: 75%;
+  font-size: 0.5em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  }
+  .mail {
+  top: 63%;
+  left: 75%;
+  width: 15px;
+  }
+  .mailword {
+  top: 65%;
+  left: 80%;
+  font-size: 0.5em;
+  }
+  .fb {
+  top: 75%;
+  left: 75%;
+  width: 15px;
+  }
+  .fbword {
+  top: 78%;
+  left: 80%;
+  font-size: 0.5em;
+  }
 }
 
 
