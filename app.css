@@ -245,6 +245,12 @@ body{
     font-size: 1em;
     font-weight: bold;
     font: arial;
+    letter-spacing: 0.5px;
+}
+@media only screen and ( max-width: 45em ) {
+    .menubutton{
+    font-size: 0.85em;
+    }
 }
 
 #menu:hover{
@@ -294,19 +300,20 @@ body{
   letter-spacing: 2px;
 }
 .hh1{
-  width : 50%;
+  width : 53%;
   height: 5%;
 }
 .hh2{
   width : 80%;
   height: 5%;
+  text-decoration-line: underline;
 }
 .hh3{
   width : 80%;
   height: 5%;
   font-size: 0.7em;
+  font-style: oblique;
 }
-
 .contactus {
   position: absolute ;
   top: 54%;
@@ -314,6 +321,7 @@ body{
   font-size: 1.25em;
   letter-spacing: 2px;
   font-weight: bold;
+  text-decoration-line: underline;
 }
 .mail {
   position: absolute ;
@@ -420,7 +428,7 @@ body{
     letter-spacing: 1.5px;
   }
   .hh1{
-    width : 40%;
+    width : 43%;
   }
 
   .contactus {
