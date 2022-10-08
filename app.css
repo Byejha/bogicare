@@ -1,67 +1,67 @@
 main{
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 body{
-    width: 100%; 
-    background-color:rgb(130, 217, 252);
-    font-family: Arial, Helvetica, sans-serif; 
-    /* margin: 0 10% 0 10%; */
+  width: 100%; 
+  background-color:rgb(130, 217, 252);
+  font-family: Arial, Helvetica, sans-serif; 
+  /* margin: 0 10% 0 10%; */
 }
 .body{
-    background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -background.jpg');
-    background-size: 50%;
-    text-align: center;
+  background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -background.jpg');
+  background-size: 50%;
+  text-align: center;
 }
 
 /* .containerImage{
-  position: relative;
+position: relative;
 }
 
 .topleft{
-  position: absolute;
-  top: 30%;
-  left: 45%;
-  font-size: medium;
-  width: 30%;
-  height: 30%;
+position: absolute;
+top: 30%;
+left: 45%;
+font-size: medium;
+width: 30%;
+height: 30%;
 }
 @media only screen and ( max-width: 82em ) {
-  .topleft{
-    font-size: 90%;
-  }
+.topleft{
+  font-size: 90%;
+}
 }
 @media only screen and ( max-width: 45em ) {
-  .topleft{
-    font-size: 70%;
-  }
+.topleft{
+  font-size: 70%;
+}
 } */
 
 .howcanweserve{
-  margin: auto;
-  display: inline-flex;
+margin: auto;
+display: inline-flex;
 }
 .whybogi{
-  margin: 5% 0 5% 0;
-  display: inline-flex;
+margin: 5% 0% 5% 5%;
+display: inline-flex;
 }
 .howcanweserveimage{
-  width: 50%;
-  margin-left: -25%;
+width: 50%;
+margin-left: -25%;
 }
 .howcanweserveword{
-  
+
 }
 .whybogiimage{
-  width: 50%;
-  margin: 0 -5% 5% 20%;
+width: 50%;
+margin: 0 -5% 5% 25%;
 }
 .why{
-  font-size: 1.65em;
-  text-align: start;
-  margin: 17% -110% 0 40%;
-  color: rgb(97, 93, 93);
-  font-weight: bolder;
+font-size: 1.65em;
+text-align: start;
+margin: 17% -110% 0 40%;
+color: rgb(97, 93, 93);
+font-weight: bolder;
 }
 
 .p1{
@@ -69,602 +69,606 @@ body{
   margin: 5% -110% 0 40%;
   color: rgb(97, 93, 93);
   font-size: 1.3em;
+  background-color: rgb(255, 255, 255, 0.75) ;
+  padding: 8%;
+  border-radius: 1em;
 }
+
 .howcan{
-  font-size: 1.4em;
-  text-align: start;
-  margin-right: 35%;
-  margin-left: -190%;
-  color: rgb(97, 93, 93);
-  font-weight: bolder;
+font-size: 1.4em;
+text-align: start;
+margin-right: 35%;
+margin-left: -190%;
+color: rgb(97, 93, 93);
+font-weight: bolder;
 }
 
 .p2{
-  text-align: start;
-  margin-right: 35%;
-  margin-left: -190%;
-  color: rgb(97, 93, 93);
-  font-size: 1.1em;
+text-align: start;
+margin-right: 35%;
+margin-left: -190%;
+color: rgb(97, 93, 93);
+font-size: 1.1em;
 }
 
 @media only screen and ( max-width: 82em ) {
-  .howcan{
-    margin-right: 35%;
-    margin-left: -190%;
-    font-size: 1.1em;
-    font-weight: bolder;
-  }
-  .p2{
-    margin-right: 35%;
-    margin-left: -190%;
-    font-size: 1.1em;
-  }
-  .why{
-    
-    font-size: 1.2em;
-  }
-  .p1{
-    font-size: 1.2em;
-    margin-bottom: 15%;
-  }
+.howcan{
+  margin-right: 35%;
+  margin-left: -190%;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+.p2{
+  margin-right: 35%;
+  margin-left: -190%;
+  font-size: 1.1em;
+}
+.why{
+  
+  font-size: 1.2em;
+}
+.p1{
+  font-size: 1.2em;
+  margin-bottom: 15%;
+}
 }
 @media only screen and ( max-width: 45em ) {
-  .howcan{
-    padding-top: 5%;
-    margin-right: 10%;
-    margin-left: 15%;
-    font-size: 0.9em;
-    font-weight: bolder;
-  }
-  .p2{
-    margin-right: 10%;
-    margin-left: 15%;
-    font-size: 0.9em;
-  }
-  .why{
-    margin-top: 270%;
-    margin-right: -400%;
-    margin-left: 80%;
-    font-size: 0.9em;
-    font-weight: bolder;
-  }
-  .p1{
-    margin-top: 0%;
-    margin-right: -400%;
-    margin-left: 80%;
-    margin-bottom: 30%;
-    font-size: 0.9em;
-  }
-  .whybogiimage{
-    width: 70%;
-    margin: 0 10% 0 0;
-  }
-  .howcanweserveimage{
-    width: 60%;
-    margin: auto;
-  }
-  .howcanweserve{
-    margin: auto;
-    display: block;
-  }
-  
+.howcan{
+  padding-top: 5%;
+  margin-right: 10%;
+  margin-left: 15%;
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+.p2{
+  margin-right: 10%;
+  margin-left: 15%;
+  font-size: 0.9em;
+}
+.why{
+  margin-top: 270%;
+  margin-right: -400%;
+  margin-left: 80%;
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+.p1{
+  margin-top: 0%;
+  margin-right: -400%;
+  margin-left: 80%;
+  margin-bottom: 30%;
+  font-size: 0.9em;
+}
+.whybogiimage{
+  width: 70%;
+  margin: 0 10% 0 0;
+}
+.howcanweserveimage{
+  width: 60%;
+  margin: auto;
+}
+.howcanweserve{
+  margin: auto;
+  display: block;
+}
+
 }
 @media only screen and ( max-width: 30em ) {
-  .howcan{
-    padding-top: 10%;
-    margin-right: 10%;
-    margin-left: 15%;
-    font-size: 0.85em;
-    font-weight: bolder;
-  }
-  .p2{
-    margin-right: 10%;
-    margin-left: 15%;
-    font-size: 0.85em;
-  }
-  .why{
-    margin-top: 300%;
-    margin-right: -430%;
-    margin-left: 90%;
-    font-size: 0.85em;
-  }
-  .p1{
-    margin-top: 0%;
-    margin-right: -430%;
-    margin-left: 90%;
-    margin-bottom: 70%;
-    font-size: 0.85em;
-  }
-  .whybogiimage{
-    width: 70%;
-    margin: 0 10% 0 0;
-  }
-  .howcanweserveimage{
-    width: 70%;
-    margin: auto;
-  }
-  .howcanweserve{
-    margin: auto;
-    display: block;
-  }
-  .whybogi{
-    margin: auto;
-    display: block start;
-  }
+.howcan{
+  padding-top: 10%;
+  margin-right: 10%;
+  margin-left: 15%;
+  font-size: 0.85em;
+  font-weight: bolder;
+}
+.p2{
+  margin-right: 10%;
+  margin-left: 15%;
+  font-size: 0.85em;
+}
+.why{
+  margin-top: 300%;
+  margin-right: -430%;
+  margin-left: 90%;
+  font-size: 0.85em;
+}
+.p1{
+  margin-top: 0%;
+  margin-right: -430%;
+  margin-left: 90%;
+  margin-bottom: 70%;
+  font-size: 0.85em;
+}
+.whybogiimage{
+  width: 70%;
+  margin: 0 10% 0 0;
+}
+.howcanweserveimage{
+  width: 70%;
+  margin: auto;
+}
+.howcanweserve{
+  margin: auto;
+  display: block;
+}
+.whybogi{
+  margin: auto;
+  display: block start;
+}
 }
 
 .bogiword{
-  color: #19adc7;
+color: #19adc7;
 }
 
 .careword{
-  color: #dd9529;
+color: #dd9529;
 }
 
 .ourProduct{
-  margin: auto;
-  display: flex;
-    /* flex-basis: auto; */
-  justify-content: space-evenly;
-     /* flex-direction: row; */
-    /* align-items: center;  */
-  text-align: center;
+margin: auto;
+display: flex;
+  /* flex-basis: auto; */
+justify-content: space-evenly;
+   /* flex-direction: row; */
+  /* align-items: center;  */
+text-align: center;
 }
 #ourProduct{
-    width: 80%;
-    border-radius: 20%;
+  width: 80%;
+  border-radius: 20%;
 }
 
 #banner{
-  display: block;
-  text-align: center;
-    /* width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: start; */
+display: block;
+text-align: center;
+  /* width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: start; */
 }
 
 .bodyimg div img{
-    border-radius: 2em;
+  border-radius: 2em;
 }
 
 #menu{
-    margin: 3px;
-    background-color: transparent;
-    margin: 0% 1%;
+  margin: 3px;
+  background-color: transparent;
+  margin: 0% 1%;
 }
 .menubutton{
-    color:#0c0909;
-    border-radius: 10px;
-    border: 0px #2fbbe6 solid;
-    padding: 0.4em 2.1em;
-    font-size: 1em;
-    font-weight: bold;
-    font: arial;
-    letter-spacing: 0.5px;
+  color:#0c0909;
+  border-radius: 10px;
+  border: 0px #2fbbe6 solid;
+  padding: 0.4em 2.1em;
+  font-size: 1em;
+  font-weight: bold;
+  font: arial;
+  letter-spacing: 0.5px;
 }
 @media only screen and ( max-width: 45em ) {
-    .menubutton{
-    font-size: 0.85em;
-    }
+  .menubutton{
+  font-size: 0.85em;
+  }
 }
 
 #menu:hover{
-    /* border-color: #000000; */
-    color: white;
-    font-weight: bolder;
-    background-color: rgba(255, 182, 47, 0.699);
-    padding: 0.2em 2.2em;
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translateY(-0.25em);
-    cursor: pointer;
-    transition: all 0.1s;
+  /* border-color: #000000; */
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(255, 182, 47, 0.699);
+  padding: 0.2em 2.2em;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  transition: all 0.1s;
 }
 
 #carouselPic{
-  margin-left: 30%;
+margin-left: 30%;
 }
 
 .footer{
-    background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -end.jpg');
-    background-size: cover;
-    background-color: #23848b;
-    max-width: 100%;
-    max-height:fit-content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+  background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -end.jpg');
+  background-size: cover;
+  background-color: #23848b;
+  max-width: 100%;
+  max-height:fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footerlink{
 
 }
 .footercontainer{
-  position: relative;
+position: relative;
 }
 
 .footerlink{
-  position: absolute ;
-  top: 54%;
-  left: 15%;
-  bottom: 10%;
-  width: 57%;
-  height: 45%;
-  font-size: 1.25em;
-  line-height: 2em;
-  letter-spacing: 2px;
+position: absolute ;
+top: 54%;
+left: 15%;
+bottom: 10%;
+width: 57%;
+height: 45%;
+font-size: 1.25em;
+line-height: 2em;
+letter-spacing: 2px;
 }
 .hh1{
-  width : 53%;
-  height: 5%;
+width : 53%;
+height: 5%;
 }
 .hh2{
-  width : 80%;
-  height: 5%;
-  text-decoration-line: underline;
+width : 80%;
+height: 5%;
+text-decoration-line: underline;
 }
 .hh3{
-  width : 80%;
-  height: 5%;
-  font-size: 0.7em;
-  font-style: oblique;
+width : 80%;
+height: 5%;
+font-size: 0.7em;
+font-style: oblique;
 }
 .contactus {
-  position: absolute ;
-  top: 54%;
-  left: 75%;
-  font-size: 1.25em;
-  letter-spacing: 2px;
-  font-weight: bold;
-  text-decoration-line: underline;
+position: absolute ;
+top: 54%;
+left: 75%;
+font-size: 1.25em;
+letter-spacing: 2px;
+font-weight: bold;
+text-decoration-line: underline;
 }
 .mail {
-  position: absolute ;
-  top: 63%;
-  left: 75%;
-  width: 45px;
+position: absolute ;
+top: 63%;
+left: 75%;
+width: 45px;
 }
 .mailword {
-  position: absolute ;
-  top: 67%;
-  left: 79%;
-  font-size: 0.9em;
+position: absolute ;
+top: 67%;
+left: 79%;
+font-size: 0.9em;
 }
 .fb {
-  position: absolute ;
-  top: 75%;
-  left: 75%;
-  width: 45px;
+position: absolute ;
+top: 75%;
+left: 75%;
+width: 45px;
 }
 .fbword {
-  position: absolute ;
-  top: 79%;
-  left: 79%;
-  font-size: 0.9em;
+position: absolute ;
+top: 79%;
+left: 79%;
+font-size: 0.9em;
 }
 @media only screen and ( max-width: 80em ) {
-  .footerlink{
-    font-size: 1em;
-    line-height: 1.9em;
-    letter-spacing: 1.5px;
-  }
-  .hh3{
-    font-size: 0.7em;
-  }
-
-  .contactus {
-  top: 54%;
-  left: 75%;
+.footerlink{
   font-size: 1em;
+  line-height: 1.9em;
   letter-spacing: 1.5px;
-  font-weight: bold;
-  }
-  .mail {
-  top: 63%;
-  left: 75%;
-  width: 30px;
-  }
-  .mailword {
-  top: 65.5%;
-  left: 78%;
-  font-size: 0.8em;
-  }
-  .fb {
-  top: 75%;
-  left: 75%;
-  width: 30px;
-  }
-  .fbword {
-  top: 78%;
-  left: 78%;
-  font-size: 0.8em;
-  }
+}
+.hh3{
+  font-size: 0.7em;
+}
+
+.contactus {
+top: 54%;
+left: 75%;
+font-size: 1em;
+letter-spacing: 1.5px;
+font-weight: bold;
+}
+.mail {
+top: 63%;
+left: 75%;
+width: 30px;
+}
+.mailword {
+top: 65.5%;
+left: 78%;
+font-size: 0.8em;
+}
+.fb {
+top: 75%;
+left: 75%;
+width: 30px;
+}
+.fbword {
+top: 78%;
+left: 78%;
+font-size: 0.8em;
+}
 }
 @media only screen and ( max-width: 60em ) {
-  .footerlink{
-    font-size: 0.75em;
-    line-height: 1.8em;
-    letter-spacing: 1.5px;
-  }
-
-  .contactus {
-  top: 54%;
-  left: 75%;
-  font-size: 0.7em;
+.footerlink{
+  font-size: 0.75em;
+  line-height: 1.8em;
   letter-spacing: 1.5px;
-  font-weight: bold;
-  }
-  .mail {
-  top: 63%;
-  left: 75%;
-  width: 25px;
-  }
-  .mailword {
-  top: 66%;
-  left: 79%;
-  font-size: 0.7em;
-  }
-  .fb {
-  top: 75%;
-  left: 75%;
-  width: 25px;
-  }
-  .fbword {
-  top: 79%;
-  left: 79%;
-  font-size: 0.7em;
-  }
+}
+
+.contactus {
+top: 54%;
+left: 75%;
+font-size: 0.7em;
+letter-spacing: 1.5px;
+font-weight: bold;
+}
+.mail {
+top: 63%;
+left: 75%;
+width: 25px;
+}
+.mailword {
+top: 66%;
+left: 79%;
+font-size: 0.7em;
+}
+.fb {
+top: 75%;
+left: 75%;
+width: 25px;
+}
+.fbword {
+top: 79%;
+left: 79%;
+font-size: 0.7em;
+}
 }
 
 @media only screen and ( max-width: 45em ) {
-  .footerlink{
-    font-size: 0.6em;
-    line-height: 1.65em;
-    letter-spacing: 1.5px;
-  }
-  .hh1{
-    width : 43%;
-  }
-
-  .contactus {
-  top: 54%;
-  left: 75%;
+.footerlink{
   font-size: 0.6em;
+  line-height: 1.65em;
   letter-spacing: 1.5px;
-  font-weight: bold;
-  }
-  .mail {
-  top: 63%;
-  left: 75%;
-  width: 20px;
-  }
-  .mailword {
-  top: 66%;
-  left: 79%;
-  font-size: 0.6em;
-  }
-  .fb {
-  top: 75%;
-  left: 75%;
-  width: 20px;
-  }
-  .fbword {
-  top: 78%;
-  left: 79%;
-  font-size: 0.6em;
-  }
+}
+.hh1{
+  width : 43%;
+}
+
+.contactus {
+top: 54%;
+left: 75%;
+font-size: 0.6em;
+letter-spacing: 1.5px;
+font-weight: bold;
+}
+.mail {
+top: 63%;
+left: 75%;
+width: 20px;
+}
+.mailword {
+top: 66%;
+left: 79%;
+font-size: 0.6em;
+}
+.fb {
+top: 75%;
+left: 75%;
+width: 20px;
+}
+.fbword {
+top: 78%;
+left: 79%;
+font-size: 0.6em;
+}
 }
 
 @media only screen and ( max-width: 30em ) {
-  .footerlink{
-    font-size: 0.45em;
-    line-height: 1.65em;
-    letter-spacing: 1px;
-  }
-  .hh1{
-    width : 40%;
-  }
-
-  .contactus {
-  top: 54%;
-  left: 75%;
-  font-size: 0.5em;
+.footerlink{
+  font-size: 0.45em;
+  line-height: 1.65em;
   letter-spacing: 1px;
-  font-weight: bold;
-  }
-  .mail {
-  top: 63%;
-  left: 75%;
-  width: 15px;
-  }
-  .mailword {
-  top: 65%;
-  left: 80%;
-  font-size: 0.5em;
-  }
-  .fb {
-  top: 75%;
-  left: 75%;
-  width: 15px;
-  }
-  .fbword {
-  top: 78%;
-  left: 80%;
-  font-size: 0.5em;
-  }
+}
+.hh1{
+  width : 40%;
+}
+
+.contactus {
+top: 54%;
+left: 75%;
+font-size: 0.5em;
+letter-spacing: 1px;
+font-weight: bold;
+}
+.mail {
+top: 63%;
+left: 75%;
+width: 15px;
+}
+.mailword {
+top: 65%;
+left: 80%;
+font-size: 0.5em;
+}
+.fb {
+top: 75%;
+left: 75%;
+width: 15px;
+}
+.fbword {
+top: 78%;
+left: 80%;
+font-size: 0.5em;
+}
 }
 
 
-  ul {
-      padding: 0;
-  }
-  ul, li {
-    list-style: none;
-  }
-  a {
-    font-family: sans-serif;
-    text-decoration: none;
-  }
-  #nav {
-    width: 60em; 
-     /* position: absolute;
-    top: 5%;
-    left: 30em;  */
-    width: 100%;
-    position: static;
-  }
-  #nav > a {
-    display: none;
-  }
-  #nav li {
-    position: relative;
-  }
-  #nav li a {
-    color: #fff;
-    display: block;
-  }
-  #nav li a:active {
-    background-color: #c00 !important;
-  }
-  #nav span:after {
-    width: 0;
-    height: 0;
-    border: 0.313em solid transparent; 
-  border-bottom: none;
-  border-top-color: #efa585;
-  content: '';
-  vertical-align: middle;
-  display: inline-block;
-  position: relative;
-  right: -0.313em; 
-  }
-
-  /* first level */
-  #nav > ul {
-  height: 3em; 
-  background-color: #e15a1f;
-  }
-  #nav > ul > li {
-  width: 20%;
-  height: 100%;
-  float: left;
-  }
-  #nav > ul > li > a {
-  height: 100%;
-  font-size: 1em;
-  line-height: 1.5em;
-  text-align: center;
-  }
-  #nav > ul > li:not( :last-child ) > a {
-  border-right: 2px solid #cc470d;
-  }
-  #nav > ul > li:hover > a,
-  #nav > ul:not( :hover ) > li.active > a {
-  background-color: #cc470d;
-
-  }
-
-  /* second level */
-  #nav li ul {
-  background-color: #cc470d;
-  display: none;
-  position: absolute;
-  top: 100%;
-  }
-  #nav li:hover ul {
-  display: block;
-  left: 0;
-  right: 0;
-  }
-  #nav li:not( :first-child ):hover ul {
-  left: -1px;
-  }
-  #nav li ul a {
-  font-size: 1.25em; 
-  border-top: 1px solid #e15a1f;
-  padding: 0.75em; 
-  }
-  #nav li ul li a:hover,
-  #nav li ul:not( :hover ) li.active a {
-  background-color: #e15a1f;
-  }
-
-  @media only screen and ( max-width: 62.5em ) {
-  #nav {
+ul {
+    padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+#nav {
+  width: 60em; 
+   /* position: absolute;
+  top: 5%;
+  left: 30em;  */
   width: 100%;
   position: static;
-  margin: 0;
-  }
-  }
-  
-  @media only screen and ( max-width: 40em ) {
-  html{
-  font-size: 75%; 
-  }
-  #nav {
-  position: relative;
-  top: auto;
-  left: auto;
-  }
-  #nav > a {
-  width: 3.125em; 
-  height: 3.125em; 
-  text-align: left;
-  text-indent: -9999px;
-  background-color: #e15a1f;
-  position: relative;
-  }
-  #nav > a:before,
-  #nav > a:after {
-  position: absolute;
-  border: 2px solid #fff;
-  top: 35%;
-  left: 25%;
-  right: 25%;
-  content: '';
-  }
-  #nav > a:after {
-  top: 60%;
-  }
-  #nav:not( :target ) > a:first-of-type,
-  #nav:target > a:last-of-type {
-  display: block;
-  }
-
-  /* first level */
-  #nav > ul {
-  height: auto;
+}
+#nav > a {
   display: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-  }
-  #nav:target > ul {
+}
+#nav li {
+  position: relative;
+}
+#nav li a {
+  color: #fff;
   display: block;
-  }
-  #nav > ul > li {
-  width: 100%;
-  float: none;
-  }
-  #nav > ul > li > a {
-  height: auto;
-  text-align: left;
-  padding: 0 0.833em; 
-  }
-  #nav > ul > li:not( :last-child ) > a {
-  border-right: none;
-  border-bottom: 1px solid #cc470d;
-  }
+}
+#nav li a:active {
+  background-color: #c00 !important;
+}
+#nav span:after {
+  width: 0;
+  height: 0;
+  border: 0.313em solid transparent; 
+border-bottom: none;
+border-top-color: #efa585;
+content: '';
+vertical-align: middle;
+display: inline-block;
+position: relative;
+right: -0.313em; 
+}
 
-  /* second level */
-  #nav li ul {
-  position: static;
-  padding: 1.25em; 
-  padding-top: 0;
-  }
-  }
+/* first level */
+#nav > ul {
+height: 3em; 
+background-color: #e15a1f;
+}
+#nav > ul > li {
+width: 20%;
+height: 100%;
+float: left;
+}
+#nav > ul > li > a {
+height: 100%;
+font-size: 1em;
+line-height: 1.5em;
+text-align: center;
+}
+#nav > ul > li:not( :last-child ) > a {
+border-right: 2px solid #cc470d;
+}
+#nav > ul > li:hover > a,
+#nav > ul:not( :hover ) > li.active > a {
+background-color: #cc470d;
+
+}
+
+/* second level */
+#nav li ul {
+background-color: #cc470d;
+display: none;
+position: absolute;
+top: 100%;
+}
+#nav li:hover ul {
+display: block;
+left: 0;
+right: 0;
+}
+#nav li:not( :first-child ):hover ul {
+left: -1px;
+}
+#nav li ul a {
+font-size: 1.25em; 
+border-top: 1px solid #e15a1f;
+padding: 0.75em; 
+}
+#nav li ul li a:hover,
+#nav li ul:not( :hover ) li.active a {
+background-color: #e15a1f;
+}
+
+@media only screen and ( max-width: 62.5em ) {
+#nav {
+width: 100%;
+position: static;
+margin: 0;
+}
+}
+
+@media only screen and ( max-width: 40em ) {
+html{
+font-size: 75%; 
+}
+#nav {
+position: relative;
+top: auto;
+left: auto;
+}
+#nav > a {
+width: 3.125em; 
+height: 3.125em; 
+text-align: left;
+text-indent: -9999px;
+background-color: #e15a1f;
+position: relative;
+}
+#nav > a:before,
+#nav > a:after {
+position: absolute;
+border: 2px solid #fff;
+top: 35%;
+left: 25%;
+right: 25%;
+content: '';
+}
+#nav > a:after {
+top: 60%;
+}
+#nav:not( :target ) > a:first-of-type,
+#nav:target > a:last-of-type {
+display: block;
+}
+
+/* first level */
+#nav > ul {
+height: auto;
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+}
+#nav:target > ul {
+display: block;
+}
+#nav > ul > li {
+width: 100%;
+float: none;
+}
+#nav > ul > li > a {
+height: auto;
+text-align: left;
+padding: 0 0.833em; 
+}
+#nav > ul > li:not( :last-child ) > a {
+border-right: none;
+border-bottom: 1px solid #cc470d;
+}
+
+/* second level */
+#nav li ul {
+position: static;
+padding: 1.25em; 
+padding-top: 0;
+}
+}
