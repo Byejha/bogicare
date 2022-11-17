@@ -58,112 +58,29 @@ body{
   
 /* --------- content ------------- */
 
-#ourproductsbanner{
-  width: 25%;
-  margin: auto;
-}
 
-.ourproducts{
-  margin: 0% 0% 5% 5%;
-  display: inline-flex;
+.contactuspic{
+  margin: 5% auto ;
+  width: 35%;
 }
-.ourproductsimage{
-  width: 80%;
-  margin: 5% 0% 5% 15%;
-}
-.p1{
-  text-align: start;
-  margin-right: 25%;
-  color: rgb(97, 93, 93);
-  font-size: 1em;
-  background-color: rgb(255, 255, 255, 0.75) ;
-  padding: 6%;
-  border-radius: 1em;
-}
-.smoke{
-  color: rgb(99, 98, 98);
-}
-
-.Product1{
-  margin: auto;
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 5%;
-  }
-#Product1{
-    width: 20em;
-    border-radius: 15%;
-    margin: auto;
-}
-.container{
-  display: flex;
-  margin:auto;
-  flex-direction: column;
-}
-
 @media only screen and ( max-width: 80em ) {
-  #ourproductsbanner{
-    width: 25%;
-  margin: auto;
-  }
-  #Product1{
-    width: 17em;
-  }
-  .p1{
-    font-size: 0.9em;
-    margin-bottom: 15%;
-  }
-}
-
-@media only screen and ( max-width: 60em ) {
-  #ourproductsbanner{
+  .contactuspic{
     width: 35%;
-  margin: auto;
-  }
-  #Product1{
-    width: 12em;
-  }
-  .p1{
-    font-size: 0.9em;
-    margin-bottom: 15%;
   }
 }
-
-@media only screen and ( max-width: 45em ) {
-  #ourproductsbanner{
+@media only screen and ( max-width: 60em ) {
+  .contactuspic{
     width: 40%;
-  margin: auto;
   }
-  #Product1{
-    width: 8em;
+}@media only screen and ( max-width: 45em ) {
+  .contactuspic{
+    width: 45%;
   }
-  .boldword{
-    font-size: small;
-  }
-  .p1{
-    margin: 5% 10% 10% 10% ;
-    font-size: 0.85em;
+}@media only screen and ( max-width: 30em ) {
+  .contactuspic{
+    width: 45%;
   }
 }
-
-@media only screen and ( max-width: 30em ) {
-  #ourproductsbanner{
-    width: 40%;
-  margin: auto;
-  }
-  #Product1{
-    width: 6em;
-  }
-  .boldword{
-    font-size: x-small;
-  }
-  .p1{
-    margin: 5% 10% 10% 10% ;
-    font-size: 0.75em;
-  }
-}
-
-
   /* ------ start Footer ------ */
 
   a:link {
