@@ -61,16 +61,16 @@ body{
 
 .contactuspic{
   margin: 5% auto ;
-  width: 35%;
+  width: 40%;
 }
 @media only screen and ( max-width: 80em ) {
   .contactuspic{
-    width: 35%;
+    width: 40%;
   }
 }
 @media only screen and ( max-width: 60em ) {
   .contactuspic{
-    width: 40%;
+    width: 45%;
   }
 }@media only screen and ( max-width: 45em ) {
   .contactuspic{
@@ -78,7 +78,7 @@ body{
   }
 }@media only screen and ( max-width: 30em ) {
   .contactuspic{
-    width: 45%;
+    width: 50%;
   }
 }
   /* ------ start Footer ------ */
