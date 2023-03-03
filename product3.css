@@ -1,0 +1,466 @@
+body{
+    width: 100%; 
+    background-color:rgb(130, 217, 252);
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0 ;
+  }
+  .body{
+    background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -background.jpg');
+    background-size: 50%;
+    text-align: center;
+  }
+  img { display: block; }
+  
+  /* ------ start Menu ------ */
+  
+  #menu{
+    margin: 3px;
+    background-color: transparent;
+    margin: 0% 1%;
+  }
+  .menubutton{
+    color:#0c0909;
+    border-radius: 10px;
+    border: 0px #2fbbe6 solid;
+    padding: 0.4em 2.1em;
+    font-size: 0.87em;
+    font-weight: bold;
+    font: arial;
+    letter-spacing: 0.5px;
+    line-height: 1.7em;
+  }
+  @media only screen and ( max-width: 45em ) {
+    .menubutton{
+    font-size: 0.85em;
+    }
+  }
+  
+  #menu:hover{
+    /* border-color: #000000; */
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(255, 182, 47, 0.699);
+    padding: 0.2em 2.2em;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  
+  /* ------ end Menu ------ */
+
+  .bogiword{
+    color: #19adc7;
+  }
+  .careword{
+    color: #dd9529;
+  }
+  
+/* --------- content ------------- */
+
+#ourproductsbanner{
+  width: 25%;
+  margin: auto;
+}
+
+.ourproducts{
+  margin: 0% 0% 5% 5%;
+  display: inline-flex;
+}
+.ourproductsimage{
+  width: 45%;
+  margin: 5% 0% 5% 8%;
+}
+.p1{
+  text-align: start;
+  /* margin-left: -155%;
+  margin-right: 85%; */
+  margin : 12% 25% 0% -110%;
+  color: rgb(97, 93, 93);
+  font-size: 1em;
+  background-color: rgb(255, 255, 255, 0.75) ;
+  padding: 6%;
+  border-radius: 1em;
+}
+.smoke{
+  color: rgb(99, 98, 98);
+}
+.availablesizebanner{
+  color: rgb(29, 29, 29);
+  font-size: 1.2em;
+  background-color: rgba(221, 221, 221, 0.75) ;
+  padding: 0.5% 12%;
+}
+.AvailableSize{
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 5%;
+  }
+#AvailableSize1{
+    width: 13em;
+    border-radius: 15%;
+}
+#AvailableSize2{
+  width: 20em;
+  border-radius: 15%;
+}
+.container{
+  display: flex;
+  margin:auto;
+  flex-direction: column;
+}
+.youmayword{
+  color: #0c0909;
+  font-size: 1.5em;
+  display: flex;
+  margin-left: 15%;
+}
+.youmayitem{
+  display: flex;
+  margin: 5% 0% 0 15%;
+  flex-direction: row;
+}
+#youmayimage{
+  width: 15em;
+  border-radius: 5%;
+  margin-right: 3em;
+}
+
+@media only screen and ( max-width: 80em ) {
+  
+  #AvailableSize1{
+    width: 10em;
+  }
+  #AvailableSize2{
+    width: 17em;
+  }
+  #youmayimage{
+    width: 12em;
+  }
+  .p1{
+    font-size: 0.9em;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and ( max-width: 60em ) {
+  #AvailableSize1{
+    width: 8em;
+  }
+  #AvailableSize2{
+    width: 13em;
+  }
+  #youmayimage{
+    width: 10em;
+  }
+  .p1{
+    font-size: 0.9em;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and ( max-width: 45em ) {
+  #AvailableSize1{
+    width: 6em;
+  }
+  #AvailableSize2{
+    width: 9em;
+  }
+  #youmayimage{
+    width: 8em;
+  }
+  .AvailableSize{
+    margin: 0 25% 0 30%;
+  }
+  .boldword{
+    font-size: small;
+  }
+  .p1{
+    margin: 5% 15% 10% -130% ;
+    font-size: 0.75em;
+  }
+  .availablesizebanner{
+    font-size: 0.8em;
+  }
+  .youmayword{
+    font-size: 1em;
+  }
+}
+
+@media only screen and ( max-width: 30em ) {
+  #AvailableSize1{
+    width: 5em;
+  }
+  #AvailableSize2{
+    width: 7em;
+  }
+  #youmayimage{
+    width: 7em;
+  }
+  .boldword{
+    font-size: x-small;
+  }
+  .p1{
+    margin: 5% 15% 10% -130% ;
+    font-size: 0.75em;
+  }
+  .availablesizebanner{
+    font-size: 0.8em;
+  }
+  .youmayword{
+    font-size: 1em;
+  }
+}
+
+
+  /* ------ start Footer ------ */
+
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: purple;
+  }
+  a:active {
+    text-decoration: underline;
+  }
+  
+.footer{
+    background-image: url('image/Baby product-bottle liquid cleanser-fabric wash- BOGI CARE -end.jpg');
+    background-size: cover;
+    background-color: #23848b;
+    max-width: 100%;
+    max-height:fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footerlink{
+  
+  }
+  .footercontainer{
+  position: relative;
+  }
+  
+  .footerlink{
+  position: absolute ;
+  top: 54%;
+  left: 15%;
+  bottom: 10%;
+  width: 57%;
+  height: 45%;
+  font-size: 1.25em;
+  line-height: 2em;
+  letter-spacing: 2px;
+  }
+  .hh1{
+  width : 53%;
+  height: 5%;
+  text-align: start;
+  font-size: 0.75em;
+  }
+  .hh2{
+  width : 80%;
+  height: 5%;
+  text-decoration-line: underline;
+  text-align: start;
+  font-size: 0.75em;
+  }
+  .hh3{
+  width : 80%;
+  height: 5%;
+  font-size: 0.6em;
+  font-style: oblique;
+  text-align: start;
+  }
+  .contactus {
+  position: absolute ;
+  top: 54%;
+  left: 75%;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  }
+  .mail {
+  position: absolute ;
+  top: 63%;
+  left: 75%;
+  width: 45px;
+  }
+  .mailword {
+  position: absolute ;
+  top: 67%;
+  left: 79%;
+  font-size: 0.9em;
+  }
+  .fb {
+  position: absolute ;
+  top: 75%;
+  left: 75%;
+  width: 45px;
+  }
+  .fbword {
+  position: absolute ;
+  top: 79%;
+  left: 79%;
+  font-size: 0.9em;
+  }
+  @media only screen and ( max-width: 80em ) {
+  .footerlink{
+    font-size: 1em;
+    line-height: 1.9em;
+    letter-spacing: 1.5px;
+  }
+  .hh3{
+    font-size: 0.7em;
+  }
+  
+  .contactus {
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  }
+  .mail {
+  top: 63%;
+  left: 75%;
+  width: 30px;
+  }
+  .mailword {
+  top: 65.5%;
+  left: 78%;
+  font-size: 0.8em;
+  }
+  .fb {
+  top: 75%;
+  left: 75%;
+  width: 30px;
+  }
+  .fbword {
+  top: 78%;
+  left: 78%;
+  font-size: 0.8em;
+  }
+  }
+  @media only screen and ( max-width: 60em ) {
+  .footerlink{
+    font-size: 0.65em;
+    line-height: 1.6em;
+    letter-spacing: 1.5px;
+  }
+  
+  .hh1{
+    width : 40%;
+  }
+  
+  .contactus {
+  font-size: 0.65em;
+  letter-spacing: 1.5px;
+  }
+  .mail {
+  top: 63%;
+  left: 75%;
+  width: 25px;
+  }
+  .mailword {
+  top: 66%;
+  left: 79%;
+  font-size: 0.7em;
+  }
+  .fb {
+  top: 75%;
+  left: 75%;
+  width: 25px;
+  }
+  .fbword {
+  top: 79%;
+  left: 79%;
+  font-size: 0.7em;
+  }
+  }
+  
+  @media only screen and ( max-width: 45em ) {
+  .footerlink{
+    font-size: 0.4em;
+    line-height: 1.6em;
+    letter-spacing: 1.5px;
+  }
+  .hh1{
+    width : 38%;
+  }
+  
+  .contactus {
+  font-size: 0.4em;
+  letter-spacing: 1.5px;
+  left: 74%;
+  }
+  .mail {
+  top: 63%;
+  left: 73%;
+  width: 20px;
+  }
+  .mailword {
+  top: 66%;
+  left: 78%;
+  font-size: 0.6em;
+  }
+  .fb {
+  top: 75%;
+  left: 73%;
+  width: 20px;
+  }
+  .fbword {
+  top: 78%;
+  left: 78%;
+  font-size: 0.6em;
+  }
+  }
+  
+  @media only screen and ( max-width: 30em ) {
+  .footerlink{
+    font-size: 0.3em;
+    line-height: 1.65em;
+    letter-spacing: 1px;
+  }
+  .hh1{
+    width : 34%;
+  }
+  
+  .contactus {
+  font-size: 0.4em;
+  letter-spacing: 1px;
+  left: 73%;
+  }
+  .mail {
+  top: 63%;
+  left: 72%;
+  width: 15px;
+  }
+  .mailword {
+  top: 65%;
+  left: 77%;
+  font-size: 0.5em;
+  }
+  .fb {
+  top: 75%;
+  left: 72%;
+  width: 15px;
+  }
+  .fbword {
+  top: 78%;
+  left: 77%;
+  font-size: 0.5em;
+  }
+  }
+  
+  /* ------ end Footer ------ */

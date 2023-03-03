@@ -131,25 +131,14 @@ body{
 }
 
 @media only screen and ( max-width: 80em ) {
-  #ourproductsbanner{
-    width: 25%;
-  margin: auto;
+  
+  #AvailableSize1{
+    width: 10em;
   }
-  #Product1{
+  #AvailableSize2{
     width: 17em;
   }
-  .p1{
-    font-size: 0.9em;
-    margin-bottom: 15%;
-  }
-}
-
-@media only screen and ( max-width: 60em ) {
-  #ourproductsbanner{
-    width: 35%;
-  margin: auto;
-  }
-  #Product1{
+  #youmayimage{
     width: 12em;
   }
   .p1{
@@ -158,37 +147,72 @@ body{
   }
 }
 
-@media only screen and ( max-width: 45em ) {
-  #ourproductsbanner{
-    width: 40%;
-  margin: auto;
-  }
-  #Product1{
+@media only screen and ( max-width: 60em ) {
+  #AvailableSize1{
     width: 8em;
+  }
+  #AvailableSize2{
+    width: 13em;
+  }
+  #youmayimage{
+    width: 10em;
+  }
+  .p1{
+    font-size: 0.9em;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and ( max-width: 45em ) {
+  #AvailableSize1{
+    width: 6em;
+  }
+  #AvailableSize2{
+    width: 9em;
+  }
+  #youmayimage{
+    width: 8em;
+  }
+  .AvailableSize{
+    margin: 0 25% 0 30%;
   }
   .boldword{
     font-size: small;
   }
   .p1{
-    margin: 5% 10% 10% 10% ;
-    font-size: 0.85em;
+    margin: 5% 15% 10% -130% ;
+    font-size: 0.75em;
+  }
+  .availablesizebanner{
+    font-size: 0.8em;
+  }
+  .youmayword{
+    font-size: 1em;
   }
 }
 
 @media only screen and ( max-width: 30em ) {
-  #ourproductsbanner{
-    width: 40%;
-  margin: auto;
+  #AvailableSize1{
+    width: 5em;
   }
-  #Product1{
-    width: 6em;
+  #AvailableSize2{
+    width: 7em;
+  }
+  #youmayimage{
+    width: 7em;
   }
   .boldword{
     font-size: x-small;
   }
   .p1{
-    margin: 5% 10% 10% 10% ;
+    margin: 5% 15% 10% -130% ;
     font-size: 0.75em;
+  }
+  .availablesizebanner{
+    font-size: 0.8em;
+  }
+  .youmayword{
+    font-size: 1em;
   }
 }
 
