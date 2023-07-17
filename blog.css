@@ -58,6 +58,17 @@ body{
   
 /* --------- content ------------- */
 
+.cambodiaimage{
+  width: 35%;
+  margin: auto;
+  padding: auto;
+  border-radius: 2em;
+}
+.cambodiaword{
+  margin: 0% 15%;
+  padding: auto;
+  line-height: 170%;
+}
 .donate, .protect, .sls, .chem{
     margin: 5% 0% 0% 0%;
     display: inline-flex;
@@ -111,6 +122,14 @@ body{
 }
 
 @media only screen and ( max-width: 80em ) {
+  .cambodiaimage{
+    width: 45%;
+    border-radius: 2em;
+  }
+  .cambodiaword{
+    margin: 0% 15%;
+    line-height: 140%;
+  }
   .p1{
     font-size: 0.9em;
     margin-bottom: 5%;
@@ -142,6 +161,14 @@ body{
   }
 }
 @media only screen and ( max-width: 45em ) {
+  .cambodiaimage{
+    width: 55%;
+    border-radius: 1em;
+  }
+  .cambodiaword{
+    margin: 0% 15%;
+    line-height: 120%;
+  }
   .donateimage, .slsimage, .chemimage{
     width: 60%;
     margin-left: 20%;
