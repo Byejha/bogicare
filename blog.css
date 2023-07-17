@@ -63,6 +63,7 @@ body{
   margin: auto;
   padding: auto;
   border-radius: 2em;
+  display: inline-flex;
 }
 .cambodiaword{
   margin: 0% 15%;
