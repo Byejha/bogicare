@@ -58,7 +58,7 @@ body{
   
 /* --------- content ------------- */
 
-#cambodiaimage{
+/* #cambodiaimage{
   width: 35%;
   margin: auto;
   padding: auto;
@@ -69,10 +69,22 @@ body{
   margin: 0% 15%;
   padding: auto;
   line-height: 170%;
-}
-.donate, .protect, .sls, .chem{
+} */
+
+.donate, .protect, .sls, .chem, .cam{
     margin: 5% 0% 0% 0%;
     display: inline-flex;
+}
+.camimage{
+  width: 55%;
+  margin: 5% 0% 0% 25%;
+  border-radius: 1em;
+}
+.p0{
+text-align: start;
+margin: 10% 12% 5% -2%;
+color: rgb(97, 93, 93);
+font-size: 1em;
 }
 .donateimage{
     width: 80%;
@@ -123,13 +135,21 @@ body{
 }
 
 @media only screen and ( max-width: 80em ) {
-  .cambodiaimage{
+  /* .cambodiaimage{
     width: 45%;
     border-radius: 2em;
   }
   .cambodiaword{
     margin: 0% 15%;
     line-height: 140%;
+  } */
+  .p0{
+    font-size: 0.9em;
+    margin-bottom: 5%;
+  }
+  .camtimage{
+    width: 55%;
+    margin-left: 23%;
   }
   .p1{
     font-size: 0.9em;
@@ -162,23 +182,23 @@ body{
   }
 }
 @media only screen and ( max-width: 45em ) {
-  .cambodiaimage{
+  /* .cambodiaimage{
     width: 55%;
     border-radius: 1em;
   }
   .cambodiaword{
     margin: 0% 15%;
     line-height: 120%;
-  }
-  .donateimage, .slsimage, .chemimage{
+  } */
+  .donateimage, .slsimage, .chemimage, .camimage{
     width: 60%;
     margin-left: 20%;
   }
-  .p1, .p2, .p3, .p4{
+  .p0, .p1, .p2, .p3, .p4{
     margin: 5% 10% 10% 10% ;
     font-size: 0.85em;
   }
-  .donate, .protect, .sls, .chem{
+  .donate, .protect, .sls, .chem, .cam{
     margin: auto;
     display: block;
   }
@@ -188,7 +208,7 @@ body{
   }
 }
 @media only screen and ( max-width: 30em ) {
-  .p1, .p2, .p3, .p4{
+  .p0, .p1, .p2, .p3, .p4{
     font-size: 0.75em;
   }
 }
